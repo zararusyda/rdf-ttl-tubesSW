@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:pnykt="http://www.penyakit/namespace/"> 
+
+<!--1.influenza -->
+<pnykt:penyakit rdf:about="https://www.alodokter.com/flu">
+    <pnykt:nama>influenza</pnykt:nama>
+    <pnykt:gejala>batuk, bersin, demam, pilek, sakit kepala, hidung berlendir</pnykt:gejala>
+    <pnykt:penanggulangan>beristirahat, makan sehat, banyak minum </pnykt:penanggulangan>
+    <pnykt:penanggulangan rdf:resource="https://www.halodoc.com/kesehatan/flu"/>
+</pnykt:penyakit>
+
+<!--2.faringitis -->
+<pnykt:penyakit rdf:about="https://www.alodokter.com/faringitis ">
+    <pnykt:nama>faringitis</pnykt:nama>
+    <pnykt:gejala>nyeri tenggorokan, sulit saat menelan, demam, pegal linu, mual, leher bengkak </pnykt:gejala>
+    <pnykt:penanggulangan> istirahat, minum air putih, jaga makanan, berkumur dengan air garam, hindari asap</pnykt:penanggulangan>
+    <pnykt:penanggulangan rdf:resource="https://www.alodokter.com/kesehatan/faringitis"/>
+</pnykt:penyakit>
+
+<!--3.laringitis-->
+<pnykt:penyakit rdf:about="https://www.alodokter.com/laringitis">
+    <pnykt:nama>laringitis</pnykt:nama>
+    <pnykt:gejala>sakit tenggorokan, batuk, demam, suara serak</pnykt:gejala>
+    <pnykt:penanggulangan> minum air putih, jaga makanan, berkumur dengan air garam, mengonsumsi permen mint, pelan berbicara,  hindari asap</pnykt:penanggulangan>
+    <pnykt:penanggulangan rdf:resource="https://www.alodokter.com/kesehatan/laringitis"/>
+</pnykt:penyakit>
+
+<!-- 4. Asma -->
+<pnykt:penyakit rdf:about="https://www.alodokter.com/asma">
+    <pnykt:nama>Asma</pnykt:nama>
+    <pnykt:gejala>sesak, sulit bernafas, batuk, mengi</pnykt:gejala>
+    <pnykt:penanggulangan> minum obat, meredakan gejala, mencegah kambuh</pnykt:penanggulangan>
+    <pnykt:penanggulangan rdf:resource="https://www.alodokter.com/kesehatan/asma"/>
+</pnykt:penyakit>
+
+<!-- 5. Bronkitis -->
+<pnykt:penyakit rdf:about="https://www.alodokter.com/bronkitis">
+    <pnykt:nama>bronkitis</pnykt:nama>
+    <pnykt:gejala>sakit tengoorokakn, sesak nafas, hidung berlendir, hidung tersumbat, kelelahan, demam ringan</pnykt:gejala>
+    <pnykt:penanggulangan> periksa ke dokter</pnykt:penanggulangan>
+    <pnykt:penanggulangan rdf:resource="https://www.alodokter.com/kesehatan/bronkitis"/>
+</pnykt:penyakit>
+
+<!-- 6. Emfisema  -->
+<pnykt:penyakit rdf:about="https://www.alodokter.com/emfisema">
+    <pnykt:nama>emfisema</pnykt:nama>
+    <pnykt:gejala>nafas pendek, batuk, cepat lelah, berat badan turun, jantung berdebar, depresi, bibir biru</pnykt:gejala>
+    <pnykt:penanggulangan> obat obata, terapi pendukung, operasi</pnykt:penanggulangan>
+    <pnykt:penanggulangan rdf:resource="https://www.alodokter.com/kesehatan/emfisema"/>
+</pnykt:penyakit>
+
+<!-- 7. pneunomia -->
+<pnykt:penyakit rdf:about="https://www.alodokter.com/pneunomia">
+    <pnykt:nama>pneunomia</pnykt:nama>
+    <pnykt:gejala>batuk, demam, sesak nafas, menggigil, kelelahan</pnykt:gejala>
+    <pnykt:penanggulangan> vaksinasi, memperkuat daya tahan tubuh, tidak meroko</pnykt:penanggulangan>
+    <pnykt:penanggulangan rdf:resource="https://www.alodokter.com/kesehatan/pneunomia"/>
+</pnykt:penyakit>
+
+<!-- 8. kanker paruparu -->
+<pnykt:penyakit rdf:about="https://www.alodokter.com/kanker-paru-paru">
+    <pnykt:nama>kanker paru-paru</pnykt:nama>
+    <pnykt:gejala> batuk kronis, batuk darah, penurunan berat badan, nyeri dada dan tulang, sesak nafas</pnykt:gejala>
+    <pnykt:penanggulangan> kemotrapi, operasi, melakukan pengobatan </pnykt:penanggulangan>
+    <pnykt:penanggulangan rdf:resource="https://www.alodokter.com/kesehatan/kanker-paru-paru"/>
+</pnykt:penyakit>
+
+
+</rdf:RDF>

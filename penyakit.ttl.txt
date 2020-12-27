@@ -1,0 +1,40 @@
+@prefix su: <http://www.w3.org/2006/ns#>.
+@prefix pr: <http://www.respirasi.com/>.
+
+su  : penyakit   pr  : nama "influenza";
+                 pr  : gejala " batuk, bersin, demam, pilek, sakit kepala, hidung berlendir";
+                 pr  : penanggulangan "beristirahat, makan sehat, banyak minum".
+
+    
+su  : penyakit  pr  : nama  "faringitis";
+                pr  : gejala " nyeri tenggorokan, sulit saat menelan, demam, pegal linu, mual, leher bengkak ";
+                pr  : penanggulangan "istirahat, minum air putih, jaga makanan, berkumur dengan air garam, hindari asap".
+
+su  : penyakit  pr  : nama "laringitis";
+                pr  : gejala "sakit tenggorokan, batuk, demam, suara serak";
+                pr  : penanggulangan "minum air putih, jaga makanan, berkumur dengan air garam, mengonsumsi permen mint, pelan berbicara,  hindari asap".
+
+su  : penyakit  pr  : nama " Asma ";
+                pr  : gejala "sesak, sulit bernafas, batuk, mengi ";
+                pr  : penanggulangan " minum obat, meredakan gejala, mencegah kambuh".
+
+su  : penyakit  pr  : nama " Bronkitis ";
+                pr  : gejala "minum obat, meredakan gejala, mencegah kambuh";
+                pr  : penanggulangan "periksa ke dokter".
+
+su  : penyakit  pr  : nama "Emfisema";
+                pr  : gejala "nafas pendek, batuk, cepat lelah, berat badan turun, jantung berdebar, depresi, bibir biru";
+                pr  : penanggulangan " obat obatan, terapi pendukung, operasi ".
+
+su  : penyakit  pr  : nama " pneunomia ";
+                pr  : gejala "batuk, demam, sesak nafas, menggigil, kelelahan";
+                pr  : penanggulangan "vaksinasi, memperkuat daya tahan tubuh, tidak merokok".
+
+su  : penyakit  pr  : nama " kanker paru paru ";
+                pr  : gejala "batuk kronis, batuk darah, penurunan berat badan, nyeri dada dan tulang, sesak nafas";
+                pr  : penanggulangan "kemotrapi, operasi, melakukan pengobatan".
+
+
+
+
+
